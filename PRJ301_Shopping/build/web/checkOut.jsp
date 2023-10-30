@@ -1,8 +1,3 @@
-<%-- 
-    Document   : checkOut
-    Created on : Jul 4, 2023, 10:29:27 AM
-    Author     : ngohu
---%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 

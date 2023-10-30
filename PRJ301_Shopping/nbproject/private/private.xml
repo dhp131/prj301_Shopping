@@ -2,6 +2,46 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/web/create.jsp</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/AddController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/Cart.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/Order.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/UpdateController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/SearchProductController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/user/UserDAO.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/CreateController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/utils/DBUtils.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/UserUpdateController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/filter/AuthenFilter.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/LogoutController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/ADSearchProductController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/ProductDAO.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/web/admin.jsp</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/web/ggCreateUser.jsp</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/EditController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/SearchUserController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/CheckOutController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/MainController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/LoginController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/RemoveController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/web/login.jsp</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/web/viewCart.jsp</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/web/shopping.jsp</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/Tea.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/OrderDAO.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/DeleteController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/OrderDetail.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/loginGG/Constants.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/ProductDTO.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/ProductInCart.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/web/checkOut.jsp</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/web/usPage.jsp</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/shopping/CartDAO.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/user/UserDTO.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/LoginGoogle.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/controllers/ViewInformationController.java</file>
+            <file>file:/D:/ASS-PRJ301/PRJ301_Shopping/src/java/sample/user/UserError.java</file>
+        </group>
     </open-files>
 </project-private>

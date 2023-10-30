@@ -1,8 +1,3 @@
-<%-- 
-    Document   : login
-    Created on : May 29, 2023, 11:02:00 AM
-    Author     : ngohu
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

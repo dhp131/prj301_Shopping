@@ -11,8 +11,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.UUID;
 import sample.user.UserDAO;
 import sample.user.UserDTO;
@@ -20,7 +18,7 @@ import sample.utils.DBUtils;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class CartDAO {
 

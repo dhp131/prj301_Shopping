@@ -1,8 +1,4 @@
-<%-- 
-    Document   : admin
-    Created on : May 29, 2023, 11:09:49 AM
-    Author     : ngohu
---%>
+
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page import="java.util.List"%>

@@ -8,7 +8,6 @@ package sample.controllers;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -23,7 +22,7 @@ import sample.user.UserDTO;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class LoginGoogle extends HttpServlet {
 

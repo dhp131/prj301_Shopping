@@ -7,7 +7,7 @@ package sample.loginGG;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class Constants {
 

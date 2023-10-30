@@ -11,7 +11,7 @@ import sample.shopping.Order;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class UserDTO {
     private int userID;

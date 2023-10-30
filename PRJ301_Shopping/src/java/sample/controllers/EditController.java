@@ -6,7 +6,6 @@
 package sample.controllers;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,11 +15,10 @@ import sample.shopping.Cart;
 import sample.shopping.CartDAO;
 import sample.shopping.ProductDTO;
 import sample.shopping.ProductInCart;
-import sample.shopping.Tea;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class EditController extends HttpServlet {
 

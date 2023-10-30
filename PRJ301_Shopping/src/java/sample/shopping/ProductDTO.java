@@ -7,7 +7,7 @@ package sample.shopping;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class ProductDTO {
     private int id;

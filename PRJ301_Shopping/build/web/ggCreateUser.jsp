@@ -1,8 +1,4 @@
-<%-- 
-    Document   : ggCreateUser
-    Created on : Jul 7, 2023, 2:27:01 PM
-    Author     : ngohu
---%>
+
 
 <%@page import="sample.user.UserError"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

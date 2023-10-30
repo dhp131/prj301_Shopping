@@ -16,7 +16,7 @@ import sample.utils.DBUtils;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class UserDAO {
 

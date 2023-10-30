@@ -7,7 +7,7 @@ package sample.user;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class UserError {
 

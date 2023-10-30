@@ -7,7 +7,7 @@ package sample.shopping;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class ProductInCart {
     private ProductDTO product;

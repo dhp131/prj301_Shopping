@@ -16,7 +16,7 @@ import sample.user.UserDTO;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class DeleteController extends HttpServlet {
 

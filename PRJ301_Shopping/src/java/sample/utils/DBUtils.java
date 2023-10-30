@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 
 /**
  *
- * @author ngohu
+ * @author Hp
  */
 public class DBUtils {
     private static final String DB_NAME="UserManagement";

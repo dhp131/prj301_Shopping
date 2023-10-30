@@ -1,8 +1,4 @@
-<%-- 
-    Document   : create
-    Created on : Jun 8, 2023, 10:07:45 AM
-    Author     : ngohu
---%>
+
 
 <%@page import="sample.user.UserError"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

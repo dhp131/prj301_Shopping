@@ -1,8 +1,4 @@
-<%-- 
-    Document   : usPage
-    Created on : May 29, 2023, 11:05:30 AM
-    Author     : ngohu
---%>
+
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
