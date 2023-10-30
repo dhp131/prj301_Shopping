@@ -1,0 +1,82 @@
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+}
+
+.product-list {
+    width: 50%;
+    overflow: auto;
+    padding-right: 20px; /* Add some spacing */
+}
+
+.confirmation-form {
+    padding-left: 20px; /* Add some spacing */
+}
+
+.confirmation-form form {
+    margin-top: 20px; /* Add some spacing */
+}
+
+.confirmation-form input[type="email"],
+.confirmation-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.confirmation-form input[type="submit"],
+.confirmation-form a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0px 8px;
+}
+
+.confirmation-form input[type="submit"]:hover,
+.confirmation-form a.btn:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+.product-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-list th,
+.product-list td {
+    padding: 8px;
+    text-align: left;
+}
+
+.product-list th {
+    background-color: #f2f2f2;
+}
+
+.product-list td {
+    border-bottom: 1px solid #ddd;
+}
+
+.item-price {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-price h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 95px;
+}
+
+.submit-btn{
+    display: flex;
+    align-items: center;
+}

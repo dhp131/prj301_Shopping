@@ -1,8 +1,11 @@
 -- Create the database
-CREATE DATABASE UserManagement;
+CREATE DATABASE ShoppingAssignment;
+
+use master
+drop database ShoppingAssignment
 
 -- Use the database
-USE UserManagement;
+USE ShoppingAssignment;
 
 -- Create the customers table
 CREATE TABLE customers (
@@ -11,7 +14,8 @@ CREATE TABLE customers (
   password VARCHAR(255),
   address VARCHAR(255),
   email VARCHAR(255),
-  phone VARCHAR(255)
+  phone VARCHAR(255),
+  roleID VARCHAR(255)
 );
 
 -- Create the products table
@@ -78,44 +82,42 @@ CREATE TABLE cartItems (
   FOREIGN KEY (productId) REFERENCES products(id)
 );
 
-
 -- Insert sample data into the customers table
-INSERT INTO customers (fullName, password, address, email, phone)
+INSERT INTO customers (fullName, password, address, email, phone, roleId)
 VALUES
-  ('Toi_la_admin', '1', 'Bien Hoa', 'admin123@gmail.com', '0123456789'),
-  ('Hoadnt', '1', 'Ho Chi Minh', 'hoa13@gmail.com', '0122345678'),
-  ('HoaiPhuong', '1', 'Dong Nai', 'hoaiphuong13@gmail.com', '0998877665'),
-  ('NgocNgan', '1', 'Soc Trang', 'ngocngan11@gmail.com', '0112233445'),
-  ('ThuUyen', '1', 'Bien Hoa', 'thuyen1@gmail.com', '0224466889'),
-  ('PhiYen', '1', 'Ha Noi', 'yen123@gmail.com', '0113355779'),
-  ('BaoTran', '1', 'Long An', 'tran89@gmail.com', '0334455667'),
-  ('TienDung', '1', 'Binh Thuan', 'dung15@gmail.com', '0887766554'),
-  ('ThuyLinh', '1', 'Lam Dong', 'thuylinh19@gmail.com', '011998822773');
-
+  ('Toi_la_admin', '1', 'Bien Hoa', 'admin123@gmail.com', '0123456789', 'AD'),
+  ('Hoadnt', '1', 'Ho Chi Minh', 'hoa13@gmail.com', '0122345678', 'AD'),
+  ('HoaiPhuong', '1', 'Dong Nai', 'hoaiphuong13@gmail.com', '0998877665', 'US'),
+  ('NgocNgan', '1', 'Soc Trang', 'ngocngan11@gmail.com', '0112233445', 'US'),
+  ('ThuUyen', '1', 'Bien Hoa', 'thuyen1@gmail.com', '0224466889', 'US'),
+  ('PhiYen', '1', 'Ha Noi', 'yen123@gmail.com', '0113355779', 'US'),
+  ('BaoTran', '1', 'Long An', 'tran89@gmail.com', '0334455667', 'US'),
+  ('TienDung', '1', 'Binh Thuan', 'dung15@gmail.com', '0887766554', 'US'),
+  ('ThuyLinh', '1', 'Lam Dong', 'thuylinh19@gmail.com', '011998822773', 'US');
 
 -- Insert sample data into the products table
 INSERT INTO products (name, price, description, image, quantity, createDate)
 VALUES
-  ('iPhone 12', 999.99, 'New Iphone.', 'iphone12.jpg', 10, '2022-01-13'),
-  ('Samsung Galaxy S21', 990.99, 'New Powerful Android smartphone.', 'galaxyS21.jpg', 15, '2022-02-23'),
-  ('Sony PlayStation 5', 399.99, 'Next-generation gaming.', 'ps5.jpg', 5, '2021-12-20'),
-  ('Apple MacBook Pro', 1700.99, 'High-performance laptop.', 'macbookPro.jpg', 8, '2022-03-15'),
-  ('Samsung 65" 4K Smart TV', 880.99, 'Immersive entertainment experience.', 'samsungTV.jpg', 12, '2022-02-24'),
-  ('Bose QuietComfort 35 II', 300.99, 'Wireless noise-canceling headphones.', 'boseHeadphones.jpg', 20, '2022-03-18'),
-  ('Canon EOS Rebel T7i', 800.99, 'Entry-level DSLR camera.', 'canonCamera.jpg', 6, '2022-05-19'),
-  ('Fitbit Versa 3', 211.99, 'Smartwatch with health and fitness.', 'fitbitVersa.jpg', 18, '2022-09-10'),
-  ('Nintendo Switch', 322.99, 'Hybrid gaming console for at-home.', 'nintendoSwitch.jpg', 10, '2021-11-10'),
-  ('Dyson V11 Absolute', 599.99, 'Powerful cordless vacuum cleaner.', 'dysonVacuum.jpg', 3, '2022-04-01'),
-  ('LG 55" OLED 4K TV', 1399.99, 'Premium TV with deep blacks and vibrant colors.', 'lgOLED.jpg', 7, '2022-09-12'),
-  ('Microsoft Surface Pro 7', 809.99, 'Versatile 2-in-1 laptop and tablet.', 'surfacePro.jpg', 9, '2022-10-18'),
-  ('Sony WH-1000XM4', 309.99, 'Premium wireless headphones.', 'sonyHeadphones.jpg', 15, '2022-10-29'),
-  ('Amazon Echo Dot (4th Gen)', 79.99, 'Smart speaker with Alexa voice assistant.', 'echoDot.jpg', 25, '2022-10-30'),
-  ('GoPro HERO9 Black', 389.99, 'Action camera with 5K video.', 'goproCamera.jpg', 10, '2022-12-19'),
-  ('Apple Watch Series 6', 309.99, 'Advanced smartwatch .', 'appleWatch.jpg', 15, '2023-01-11'),
-  ('Bose SoundLink Revolve', 299.99, 'Portable Bluetooth speaker.', 'boseSpeaker.jpg', 20, '2023-02-16'),
-  ('Nintendo Switch Lite', 189.99, 'Compact and lightweight gaming.', 'switchLite.jpg', 8, '2023-03-21'),
-  ('Samsung Galaxy Tab S7', 699.99, 'Premium Android tablet.', 'galaxyTab.jpg', 10, '2023-04-20'),
-  ('Sony WH-1000XM4', 321.99, 'Premium wireless headphones with exceptional.', 'sonyHeadphones.jpg', 15, '2023-05-10');
+  ('LEVENTS Floral/White T-Shirt', 99.99, 'Collection Item of Levents.', 'levents.jpg', 100, '2023-01-01'),
+  ('SICKKO Hand Tee', 199.99, 'New Collection of Sickko Brands 2023.', 'sickko.jpg', 15, '2023-02-05'),
+  ('DirtyCoins Retro T-Shirt', 199.99, 'Next-generation DirtyCoins Tee.', 'dirtycoins.jpg', 50, '2023-12-01'),
+  ('Galaxy Tee # Black', 159.99, 'High-performance galaxy items.', '8yo.jpg', 8, '2023-03-15'),
+  ('Hearts Tee', 209.99, 'SWE visuals.', 'swe.jpg', 12, '2023-02-20'),
+  ('FPT University x Coolmate', 299.99, 'Hot Items colab with Skillcetera.', 'coolmate.jpg', 200, '2023-02-04'),
+  ('Navy Solid Tee', 109.99, 'Hot newbie Local Brand.', 'sly.jpg', 60, '2023-10-05'),
+  ('Classic Logo T-Shirts 2023 Edition', 169.99, 'Freakers hot tee.', 'freakers.jpg', 180, '2023-06-10'),
+  ('Leng Logo T-shirt Blue', 199.99, 'Unique Local brand.', 'leng.jpg', 100, '2023-01-15'),
+  ('Local Brand TSUN Signature', 399.99, 'Favourite Hot Items.', 'tsun.jpg', 300, '2023-07-01'),
+  ('Godsun Donut Tee', 499.99, 'Donut Items.', 'godson.jpg', 70, '2023-08-12'),
+  ('SCC Daily Sneaker', 299.99, 'High performance with Sneaker.', 'sneakero.jpg', 90, '2023-09-18'),
+  ('ClownZ Big Logo T-Shirt', 149.99, 'Premium collection.', 'clownz.jpg', 150, '2023-03-25'),
+  ('Love Peace', 349.99, 'Bobui Brand for Peace.', 'bobui.jpg', 250, '2023-01-30'),
+  ('Degrey Madmnonks 84 Sport T-Shirt', 599.99, 'Hot items for boys.', 'degrey.jpg', 100, '2023-07-05'),
+  ('5theway VietNam', 199.99, 'Find The Way Items.', '5theway.jpg', 150, '2023-01-10'),
+  ('Gori Clothes', 99.99, 'Just your style.', 'gori.jpg', 200, '2023-02-15'),
+  ('TOBI 280gsm Regular Boxy T-shirt', 499.99, 'Compact and lightweight.', 'tobi.jpg', 80, '2023-03-20'),
+  ('Goblin Signature Suede Tee Grey', 249.99, 'Urban Monkey Tee.', 'monkey.jpg', 100, '2023-04-25'),
+  ('GENTO - SB19 Essential T-Shirt', 149.99, 'Premium Collection.', 'gento.jpg', 150, '2023-05-01');
 
 UPDATE products
 SET image = CONCAT('./imgs/', image);

@@ -1,0 +1,157 @@
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    border-right: 1px solid #ccc;
+}
+
+.item-container {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.item-name h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.item-price h2 {
+    margin-top: 10px;
+    color: #007bff;
+    text-align: center;
+}
+
+.item-description p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.quantity-choice{
+    display: flex;
+}
+
+.check-out-menu{
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    padding: 16px;
+    display: flex;
+}
+
+.check-out-infor{
+    margin-left: 40px;
+    width: 20%;
+}
+
+.check-out-header{
+    text-align: center;
+}
+
+.click-link{
+    text-align: center;
+}
+
+.click-link a{
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn{
+    background-color: #333;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    margin: 8px 0px;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.back-link a.btn{
+    padding: 10px 30px;
+}
+
+.quantity-choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.quantity-choice label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.quantity-label {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+}
+
+.quantity-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-btn button {
+    padding: 5px 10px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.quantity-btn button:hover{
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.submit-btn{
+    margin-top: 8px;
+}
+
+.edit-btn,
+.remove-btn{
+    padding: 10px 20px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.edit-btn:hover,
+.remove-btn:hover{
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.05);
+}
